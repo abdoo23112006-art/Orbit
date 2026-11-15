@@ -1,0 +1,32 @@
+name: orbit_health
+description: "Orbit: a bilingual crew health journal for long-duration space mission scenarios."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.6.0
+  shared_preferences: ^2.5.6
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  shared_preferences_platform_interface: ^2.4.2
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: OrbitSans
+      fonts:
+        - asset: assets/fonts/NotoSans.ttf
+    - family: OrbitArabic
+      fonts:
+        - asset: assets/fonts/NotoSansArabic.ttf
